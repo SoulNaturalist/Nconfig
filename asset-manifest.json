@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Nconfig/static/css/main.49b7ef7b.css",
-    "main.js": "/Nconfig/static/js/main.47b264ff.js",
-    "static/js/787.c790be57.chunk.js": "/Nconfig/static/js/787.c790be57.chunk.js",
-    "static/media/logo.svg": "/Nconfig/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Nconfig/index.html",
-    "main.49b7ef7b.css.map": "/Nconfig/static/css/main.49b7ef7b.css.map",
-    "main.47b264ff.js.map": "/Nconfig/static/js/main.47b264ff.js.map",
-    "787.c790be57.chunk.js.map": "/Nconfig/static/js/787.c790be57.chunk.js.map"
+    "main.css": "/soulnaturalist/Nconfig/static/css/main.49b7ef7b.css",
+    "main.js": "/soulnaturalist/Nconfig/static/js/main.1b755a9c.js",
+    "static/js/787.c790be57.chunk.js": "/soulnaturalist/Nconfig/static/js/787.c790be57.chunk.js",
+    "static/media/logo.svg": "/soulnaturalist/Nconfig/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/soulnaturalist/Nconfig/index.html",
+    "main.49b7ef7b.css.map": "/soulnaturalist/Nconfig/static/css/main.49b7ef7b.css.map",
+    "main.1b755a9c.js.map": "/soulnaturalist/Nconfig/static/js/main.1b755a9c.js.map",
+    "787.c790be57.chunk.js.map": "/soulnaturalist/Nconfig/static/js/787.c790be57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49b7ef7b.css",
-    "static/js/main.47b264ff.js"
+    "static/js/main.1b755a9c.js"
   ]
 }
