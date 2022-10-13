@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Fragment>
           <Routes>
-            <Route path="/" element={<WelcomePage />} />
+            <Route path="/Nconfig" element={<WelcomePage />} />
           </Routes>
         </Fragment>
       </Router>
