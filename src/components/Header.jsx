@@ -3,20 +3,19 @@ import React from 'react';
 const Header = () => {
     const styles = {
         h1:{
-            fontFamily:'NIKEA',
+            fontFamily:'Share Tech Mono',
             color:'white',
             fontSize:'25px',
             backgroundColor:'#000',
         },
         h2:{
             display:'flex',
-            fontFamily:'NIKEA',
+            fontFamily:'Share Tech Mono',
             fontSize:'25px',
             color:'white',
             backgroundColor:'#000',
             position: 'relative',
             left:'20px'
-
         },
         container:{
             backgroundColor:'#000',

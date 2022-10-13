@@ -3,7 +3,7 @@ import ConfigButton from "./ConfigButton";
 
 const WelcomePage = () => {
     const styles = {textTitle:{
-        fontFamily:'Fairwall Sans',
+        fontFamily:'KIA',
         position:'relative',
         top:'70px',
         fontSize:'30px',

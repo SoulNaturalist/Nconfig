@@ -3,7 +3,7 @@ import React from 'react';
 const ConfigButton = () => {
     const styles = {createButton:{
         color:'white',
-        fontFamily: 'Fairwall Sans',
+        fontFamily: 'KIA',
         fontSize:'20px',
         backgroundColor:'black',
         width:'140px',
@@ -19,7 +19,7 @@ const ConfigButton = () => {
         top:'90px'
     },deleteButton:{
         color:'white',
-        fontFamily: 'Fairwall Sans',
+        fontFamily: 'KIA',
         fontSize:'20px',
         backgroundColor:'black',
         width:'140px',
