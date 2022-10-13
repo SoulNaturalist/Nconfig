@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NIKEA';
+  src: local('NIKEA'), url(../fonts/NIKEA.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Fairwall Sans';
+  src: local('Fairwall Sans'), url(../fonts/FairwallSans-Regular.otf) format('otf');
+}
