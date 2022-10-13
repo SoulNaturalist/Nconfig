@@ -1,21 +1,20 @@
 import './App.css';
+import React, {Fragment} from 'react';
 import Header from "./components/Header";
-import ConfigButton from "./components/ConfigButton";
+import WelcomePage from "./components/WelcomePage";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 
 function App() {
-  const styles = {textTitle:{
-    fontFamily:'Fairwall Sans',
-    position:'relative',
-    top:'70px',
-    fontSize:'30px',
-    textAlign:'center'
-
-  }}
   return (
     <div>
       <Header/>
-      <p style={styles.textTitle}>Сайт для сохранения ваших nginx конфигов</p>
-      <ConfigButton/>
+      <Router>
+        <Fragment>
+          <Routes>
+            <Route path="/" element={<WelcomePage />} />
+          </Routes>
+        </Fragment>
+      </Router>
     </div>
   );
 }
