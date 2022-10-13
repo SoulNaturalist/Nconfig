@@ -2,3 +2,13 @@
   margin: 0px;
   padding: 0px;
 }
+
+@font-face {
+  font-family: 'NIKEA';
+  src: local('NIKEA'), url(../fonts/NIKEA.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Fairwall Sans';
+  src: local('Fairwall Sans'), url(../fonts/FairwallSans-Regular.otf) format('otf');
+}
