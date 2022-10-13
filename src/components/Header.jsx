@@ -3,14 +3,14 @@ import React from 'react';
 const Header = () => {
     const styles = {
         h1:{
-            fontFamily:'Share Tech Mono',
+            fontFamily:'Syncopate',
             color:'white',
             fontSize:'25px',
             backgroundColor:'#000',
         },
         h2:{
             display:'flex',
-            fontFamily:'Share Tech Mono',
+            fontFamily:'Syncopate',
             fontSize:'25px',
             color:'white',
             backgroundColor:'#000',
