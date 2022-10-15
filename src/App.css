@@ -123,7 +123,8 @@ button {
   border-radius: 4px;
 }
 
-.header_link {
+.header_link,a, a:focus, .header_link:focus {
   all:unset;
   outline: none !important;
 }
+
