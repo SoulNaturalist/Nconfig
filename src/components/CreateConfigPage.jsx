@@ -28,7 +28,7 @@ const CreateConfigPage = () => {
     }
     return (
         <div>
-            <p style={styles.title}>Добавить конфиг</p>
+            <p style={styles.title} className="createConfigTitle">Добавить конфиг</p>
             <div className="center_form">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input defaultValue="Название конфига" className="configName" {...register("nameConfig")}/>
