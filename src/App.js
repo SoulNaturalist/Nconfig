@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <HashRouter basename="/">
+      <HashRouter>
         <Route path="/Nconfig/" element={<WelcomePage />} />
         <Route path="/Nconfig/delete" element={<DeleteConfig />} />
         <Route path="/Nconfig/create" element={<CreateConfig />} />
