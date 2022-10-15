@@ -37,10 +37,10 @@ const ConfigButton = () => {
     }}
     return (
         <div>
-            <Link to="/create">
+            <Link to="create">
                 <div style={styles.createButton}>Создать конфиг</div>
             </Link>
-            <Link to="/delete">
+            <Link to="delete">
                 <div style={styles.deleteButton}>Удалить конфиг</div>
             </Link>
         </div>
