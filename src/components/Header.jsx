@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const styles = {
@@ -29,11 +30,11 @@ const Header = () => {
     };
     return (
         <div>
-            <a style={styles.link} href="./">
+            <Link to="/">
                 <header style={styles.container}>
                     <h1 style={styles.h1}>nconfig</h1>
                 </header>
-            </a>
+            </Link>
         </div>
     );
 }

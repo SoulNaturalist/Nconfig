@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const ConfigButton = () => {
     const styles = {createButton:{
@@ -36,8 +37,12 @@ const ConfigButton = () => {
     }}
     return (
         <div>
-            <div style={styles.createButton}>Создать конфиг</div>
-            <div style={styles.deleteButton}>Удалить конфиг</div>
+            <Link to="create">
+                <div style={styles.createButton}>Создать конфиг</div>
+            </Link>
+            <Link to="delete">
+                <div style={styles.deleteButton}>Удалить конфиг</div>
+            </Link>
         </div>
     );
 }
