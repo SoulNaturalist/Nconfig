@@ -122,3 +122,8 @@ button {
   padding: 10px 10px;
   border-radius: 4px;
 }
+
+.header_link {
+  all:unset;
+  outline: none !important;
+}

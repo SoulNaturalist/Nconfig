@@ -23,14 +23,11 @@ const Header = () => {
             display: 'flex',
             justifyContent:'center',
             alignItems: 'center'
-        },
-        link:{
-            all:'unset'
         }
     };
     return (
         <div>
-            <Link to="/Nconfig" style={styles.link}>
+            <Link to="/Nconfig" className="header_link">
                 <header style={styles.container}>
                     <h1 style={styles.h1}>nconfig</h1>
                 </header>
