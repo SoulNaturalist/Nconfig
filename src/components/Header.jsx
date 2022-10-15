@@ -30,7 +30,7 @@ const Header = () => {
     };
     return (
         <div>
-            <Link to="/">
+            <Link to="/Nconfig" style={styles.link}>
                 <header style={styles.container}>
                     <h1 style={styles.h1}>nconfig</h1>
                 </header>
