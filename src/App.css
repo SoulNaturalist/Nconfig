@@ -5,3 +5,120 @@
   margin: 0px;
   padding: 0px;
 }
+
+
+.center_form {
+  position: relative;
+  top:250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.form {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.configName, .configValue {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(180, 180, 180);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 25px 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.buttonDelete {
+  padding: 15px 10px;
+  display: block;
+  background-color:#70FF64;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.configName:focus,  .configValue:focus{
+  outline: none !important;
+  border:1px solid rgb(255, 255, 255);
+}
+
+
+button[type="submit"],
+input[type="submit"] {
+  background-color:#70FF64;
+  border: none;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background-color:#51e28e;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button[type="button"] {
+  display: block;
+  appearance: none;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+
+button {
+  position: relative;
+  top:140px;
+  display: block;
+  appearance: none;
+  border: 1px solid #333;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
