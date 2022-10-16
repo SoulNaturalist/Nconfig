@@ -15,7 +15,7 @@ const DeleteConfigPage = () => {
             textAlign: 'center',
             fontFamily:'Anonymous Pro',
             position:'relative',
-            top:'220px',
+            top:'120px',
             fontSize:'30px'
         }
     }
