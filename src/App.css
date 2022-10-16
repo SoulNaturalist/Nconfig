@@ -139,12 +139,96 @@ button {
   }
 }
 
+/*Iphone 5 / SE*/
 @media (width: 320px) and (height:568px) {
   .createConfigTitle {
     position: relative;
     top: 90px !important;
   }
   .configName,.buttonDelete,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 30px;
+  }
+  .titleDeleteConfig {
+    position: relative;
+    top:110px !important;
+  }
+}
+
+/*Iphone 6/7/8*/
+@media (width: 375px) and (height:667px) {
+  .createConfigTitle {
+    position: relative;
+    top: 90px !important;
+  }
+  .configName,.buttonDelete,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 30px;
+  }
+  .titleDeleteConfig {
+    position: relative;
+    top:110px !important;
+  }
+}
+
+/*Samsung Galaxy A51/71*/
+@media (width: 412px) and (height:914px) {
+  .createConfigTitle {
+    position: relative;
+    top: 90px !important;
+  }
+  .configName,.buttonDelete,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 30px;
+  }
+  .titleDeleteConfig {
+    position: relative;
+    top:110px !important;
+  }
+}
+
+/*Galaxy Fold*/
+@media (width: 280px) and (height:653px) {
+  .createConfigTitle {
+    position: relative;
+    top: 90px !important;
+  }
+  .configName,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 5px;
+  }
+  .titleDeleteConfig {
+    position: relative;
+    top:110px !important;
+    font-size:26px !important;
+  }
+  .buttonDelete {
+    position: relative;
+    top:-100px;
+    padding: 15px 30px;
+  }
+}
+/*Samsung Galaxy S20*/
+@media (width: 412px) and (height:915px) {
+  .createConfigTitle {
+    position: relative;
+    top: 90px !important;
+  }
+  .configName,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 15px;
+  }
+  .titleDeleteConfig {
+    position: relative;
+    top:110px !important;
+    font-size:28px !important;
+  }
+  .buttonDelete {
     position: relative;
     top:-100px;
     padding: 15px 30px;

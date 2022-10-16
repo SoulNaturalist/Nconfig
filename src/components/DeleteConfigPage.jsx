@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const DeleteConfigPage = () => {
-    const {register,handleSubmit,formState: { errors }} = useForm();
+    const {register,handleSubmit} = useForm();
     const onSubmit = (data) => {
         const configs = localStorage.getItem('configs');
         const nameConfigDelete = data.nameConfig;
@@ -21,7 +21,7 @@ const DeleteConfigPage = () => {
     }
     return (
         <div>
-            <p style={styles.title}>Удалить конфиг</p>
+            <p style={styles.title} className="titleDeleteConfig">Удалить конфиг</p>
             <div className="center_form">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input defaultValue="Название конфига" className="configName" {...register("nameConfig")}/>
