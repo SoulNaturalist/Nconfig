@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const CreateConfigPage = () => {
-    const {register,handleSubmit,formState: { errors }} = useForm();
+    const {register,handleSubmit} = useForm();
     const onSubmit = (data) => {
         if (localStorage.getItem('configs') === null && data.nameConfig && data.config) {
             const configName = data.nameConfig;
