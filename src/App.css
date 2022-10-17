@@ -50,16 +50,7 @@ h1 {
   font-size: 20px;
 }
 
-.buttonDelete {
-  padding: 15px 10px;
-  display: block;
-  background-color:#70FF64;
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 4px;
-}
-
-.configName:focus,  .configValue:focus{
+.configName:focus,  .configValue:focus, .configNameDelete:focus{
   outline: none !important;
   border:1px solid rgb(255, 255, 255);
 }
@@ -128,16 +119,33 @@ button {
   outline: none !important;
 }
 
-@media (min-width: 360px) and (min-height:660px) {
-  .createConfigTitle {
-    position: relative;
-    top: 80px !important;
-  }
-  .configName,.buttonDelete,.configValue {
-    position: relative;
-    top:-100px;
-  }
+.configNameDelete {
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(180, 180, 180);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 25px 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  position: relative;
+  top:5px;
 }
+
+.buttonDelete {
+  padding: 15px 10px;
+  display: block;
+  background-color:#70FF64;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  position: relative;
+  top:10px;
+}
+
 
 /*Iphone 5 / SE*/
 @media (width: 320px) and (height:568px) {
@@ -154,7 +162,13 @@ button {
     position: relative;
     top:110px !important;
   }
+  .configNameDelete {
+    position: relative;
+    top:-100px;
+    padding: 15px 5px;
+  }
 }
+
 
 /*Iphone 6/7/8*/
 @media (width: 375px) and (height:667px) {
@@ -171,6 +185,11 @@ button {
     position: relative;
     top:110px !important;
   }
+  .configNameDelete {
+    position: relative;
+    top:-100px;
+    padding: 15px 15px;
+  }
 }
 
 /*Samsung Galaxy A51/71*/
@@ -183,6 +202,11 @@ button {
     position: relative;
     top:-100px;
     padding: 15px 30px;
+  }
+  .configNameDelete {
+    position: relative;
+    top:-100px;
+    padding: 15px 5px;
   }
   .titleDeleteConfig {
     position: relative;
@@ -197,6 +221,11 @@ button {
     top: 90px !important;
   }
   .configName,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 5px;
+  }
+  .configNameDelete {
     position: relative;
     top:-100px;
     padding: 15px 5px;
@@ -219,6 +248,11 @@ button {
     top: 90px !important;
   }
   .configName,.configValue {
+    position: relative;
+    top:-100px;
+    padding: 15px 15px;
+  }
+  .configNameDelete {
     position: relative;
     top:-100px;
     padding: 15px 15px;

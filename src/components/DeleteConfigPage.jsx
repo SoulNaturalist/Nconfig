@@ -15,7 +15,7 @@ const DeleteConfigPage = () => {
             textAlign: 'center',
             fontFamily:'Anonymous Pro',
             position:'relative',
-            top:'120px',
+            top:'195px',
             fontSize:'30px'
         }
     }
@@ -24,7 +24,7 @@ const DeleteConfigPage = () => {
             <p style={styles.title} className="titleDeleteConfig">Удалить конфиг</p>
             <div className="center_form">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <input defaultValue="Название конфига" className="configName" {...register("nameConfig")}/>
+                    <input defaultValue="Название конфига" className="configNameDelete" {...register("nameConfig")}/>
                     <input type="submit" value="Потвердить" className="buttonDelete"/>
                 </form>
             </div>
